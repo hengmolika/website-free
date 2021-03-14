@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: url(https://www.delphinhotel.com/main_pics/pages/medium/755.png);
+    background-size: cover;
+    height: 90vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 229, 229);
+}
+ul li{
+    padding: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    
+}
+ul li a :hover{
+    border-bottom: 3px solid red;
+}
+footer{
+    background: rgb(3, 66, 66);
+    padding: 10px;
+}
+i {
+    margin: 10px;
+}
+.container{
+    background: rgb(23, 207, 207);
+    width: 100%;
+}
+.photos{
+    width: 100%;
+}
+.box{
+    display: flex;
+    width: 100%;
+}
+.img{
+    margin: 20px;
+    float: left;
+    width: 30%;
+    height: 50vh;
+    margin-top: 50px;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+h3{
+    color: rgb(10, 10, 10);
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.img-about img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(212, 210, 210);
+}
+.about{
+    background:rgb(23, 207, 207);
+}
+.imag{
+    float: left;
+    margin: 20px;
+    width:100%;
+    height: 50vh;
+}
+.h5{
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.imag img{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form{
+    background: rgb(187, 194, 194);
+    height: 80vh;
+}
